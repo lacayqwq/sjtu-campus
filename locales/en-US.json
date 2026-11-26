@@ -1,0 +1,17 @@
+{
+  "displayName": "SJTU Campus",
+  "shortDescription": "Use SJTU Campus in Kimi",
+  "longDescription": "Query Canvas courses and assignments, sync graduate timetables, import Dela timetables, and manage personal todos, campus mail, classroom videos, Shuiyuan, and course documents in Kimi.",
+  "developerName": "lacayqwq and Dela contributors",
+  "tryPrompts": [
+    "Sync my graduate timetable and show this week's classes",
+    "Show my upcoming Canvas assignments",
+    "Search Shuiyuan for course discussions"
+  ],
+  "skillOverrides": {
+    "sjtu-campus": {
+      "displayName": "SJTU Campus",
+      "description": "Query Canvas, graduate timetables, campus mail, and course materials"
+    }
+  }
+}

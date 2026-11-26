@@ -1,0 +1,3 @@
+SJTU Campus includes local adaptations of Dela (https://github.com/Chang-Yo/Dela), originally developed by Dela contributors and licensed under GPL-3.0-or-later.
+
+The graduate timetable mapping is adapted from Dela and locally modified for Kimi. Canvas, mail, todo, and browser workflows were integrated for this plugin. No Dela credentials, user databases, private responses, or application binaries are included.

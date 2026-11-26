@@ -1,0 +1,39 @@
+{
+  "$schema": "https://catalog.msh.team/misc/kimi.plugin.schema.json",
+  "name": "sjtu-campus",
+  "version": "0.1.0+local.20261125-143200",
+  "description": "在 Kimi 中查询 Canvas 课程与作业、同步研究生课表、导入 Dela 课表，并管理个人待办、校园邮箱、课堂视频、水源社区及课程文档。",
+  "keywords": [
+    "上海交通大学",
+    "Canvas",
+    "研究生课表",
+    "校园邮箱",
+    "水源"
+  ],
+  "author": "lacayqwq and Dela contributors",
+  "license": "GPL-3.0-or-later",
+  "skillInstructions": "",
+  "interface": {
+    "displayName": "交大校园",
+    "shortDescription": "在 Kimi 里使用交大校园",
+    "longDescription": "在 Kimi 中查询 Canvas 课程与作业、同步研究生课表、导入 Dela 课表，并管理个人待办、校园邮箱、课堂视频、水源社区及课程文档。",
+    "developerName": "lacayqwq and Dela contributors",
+    "websiteURL": "",
+    "iconUrl": "",
+    "category": "PRODUCTIVITY",
+    "defaultLocale": "zh-CN",
+    "locales": "./locales/",
+    "tryPrompts": [
+      "同步我的研究生课表并看看本周有什么课",
+      "查看 Canvas 上最近要交的作业",
+      "搜索水源社区里的课程讨论"
+    ],
+    "skillOverrides": {
+      "sjtu-campus": {
+        "displayName": "交大校园",
+        "description": "查询 Canvas、研究生课表、校园邮箱和课程资料"
+      }
+    }
+  },
+  "skills": "./skills/"
+}
